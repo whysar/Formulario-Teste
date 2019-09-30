@@ -1,10 +1,12 @@
 <?php
 $name = $_POST['name'];
+$feedback = $_POST[ 'feedback'];
 
 
 ?>
  
 
  <div>
-Nome do usuario: <?= $name ?>
+Name: <?= $name ?>
+Feedback: <?= $feedback ?>
   </div>
