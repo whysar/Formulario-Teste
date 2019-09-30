@@ -7,6 +7,6 @@ $feedback = $_POST[ 'feedback'];
  
 
  <div>
-Name: <?= $name ?>
+Name: <?= $name ?><BR>
 Feedback: <?= $feedback ?>
   </div>
