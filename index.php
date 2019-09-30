@@ -26,7 +26,7 @@
 
         <tr>
         <td><label>Sugestão e/ou Reclamação:</label></td>
-        <td><textarea name="feedback" cols="40" rows="5" > </textarea>
+        <td><textarea name="feedback" cols="140" rows="5" > </textarea>
         </tr>
 
 
