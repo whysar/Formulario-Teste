@@ -15,28 +15,28 @@
 
         <tr>
         <td><label>E-mail:</label></td>
-        <td><input type="text" name="email"  size="40" maxlength="30"></td>
+        <td><input type="text" name="email" id="email" size="40" maxlength="30"></td>
         </tr>
 
         <tr>
         <td><label>Telephone:</label></td>
-        <td><input type="text" name="ddd" size="2" maxlength="2">
-        <input type="text" name="number" size="8" maxlength="8"></td>
+        <td><input type="text" name="ddd" id="ddd" size="2" maxlength="2">
+        <input type="text" name="number" id="number" size="9" maxlength="9"></td>
         </tr>
 
         <tr>
         <td><label>Feedback:</label></td>
-        <td><textarea name="feedback" cols="40" rows="5" required> </textarea>
+        <td><textarea name="feedback" id="feedback" cols="40" rows="5" required> </textarea>
         </tr>
 
 
         <tr>
         <td><label>Service Quality:</label></td>
-        <td><input type="radio" name="quality" value="terrible"> Terrible
-        <input type="radio" name="quality" value="bad"> Bad
-        <input type="radio" name="quality" value="reasonable"> Reasonable
-        <input type="radio" name="quality" value="good"> Good
-        <input type="radio" name="quality" value="great"> Great</td>
+        <td><input type="radio" name="quality" id="quality" value="terrible"> Terrible
+        <input type="radio" name="quality" id="quality" value="bad"> Bad
+        <input type="radio" name="quality" id="quality" value="reasonable"> Reasonable
+        <input type="radio" name="quality" id="quality" value="good"> Good
+        <input type="radio" name="quality" id="quality" value="great"> Great</td>
         </tr>
 
 		<tr><td>
@@ -46,4 +46,5 @@
     </form>
 
 </body>
+<body style = "font-family:times, times new roman, serif;" bgcolor="#C0C0C0" text="#008000" >
 </html>
