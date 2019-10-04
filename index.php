@@ -9,7 +9,7 @@
         <th colspan="2">Feedback</th>
         </tr>
         <tr>
-        <td><label>Name:</label></td>
+        <td><label>Name*:</label></td>
         <td><input type="text" name="name" id="name" size="40" maxlength="30" required></td>
         </tr>
 
@@ -25,7 +25,7 @@
         </tr>
 
         <tr>
-        <td><label>Feedback:</label></td>
+        <td><label>Feedback*:</label></td>
         <td><textarea name="feedback" id="feedback" cols="40" rows="5" required> </textarea>
         </tr>
 
