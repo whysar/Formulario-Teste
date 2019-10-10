@@ -1,21 +1,19 @@
+
+<html>
+<body>
 <?php
-
-$name = $_POST['name' ];
-$email = $_POST[ 'email' ];
-$ddd = $_POST[ 'ddd'];
-$number = $_POST[ 'number' ];
-$feedback = $_POST[ 'feedback' ];
-$quality = $_POST[ 'quality' ];
-
+if (empty($_POST["name"])){
+  echo "<br>Name field needs to be filled in!";
+}
+  elseif (empty($_POST["feedback"])){
+echo "<br>Feedback field needs to be filled in!";
+}
+else {
 ?>
- 
-
- <div>
-Name: <?= $name ?><BR>
-Feedback: <?= $feedback ?><BR>
-Email: <?= $email ?><BR>
-Telephone: <?= $ddd ?> 
-<?= $number ?> <BR>
-Feedback: <?= $feedback ?><BR>
-Service Quality: <?= $quality ?><BR>
-  </div>
+Welcome <?php echo $_POST["name"]; ?><br>
+We appreciate your feedback.<br>
+<?php
+}
+?>
+</body>
+</html>
