@@ -21,7 +21,7 @@
         <label> Name*:</label> 
         </td>
         <td> 
-        <input type="text" name="name" id="name" size="40" maxlength="30" required > 
+        <input type="text" name="name" id="name" size="40" maxlength="30" style="height: 20px;" required  > 
         </td>
         </tr>
 
@@ -30,7 +30,7 @@
         <label> E-mail:</label> 
         </td>
         <td> 
-        <input type="text" name="email" id="email" size="40" maxlength="30" > 
+        <input type="text" name="email" id="email" size="40" maxlength="30" style="height: 20px;" > 
         </td>
         </tr>
 
@@ -39,8 +39,8 @@
         <label> Telephone:</label>
         </td>
         <td> 
-        <input type="text" name="ddd" id="ddd" size="2" maxlength="2" >
-        <input type="text" name="number" id="number" size="9" maxlength="9" > 
+        <input type="text" name="ddd" id="ddd" size="2" maxlength="2" style="height: 25px;" >
+        <input type="text" name="number" id="number" size="9" maxlength="9" style="height: 25px;" > 
         </td>
         </tr>
 
@@ -49,21 +49,22 @@
         <label> Feedback*: </label> 
         </td>
         <td> 
-        <textarea name="feedback" id="feedback" cols="40" rows="5" required > </textarea>
+        <input type= "text" name="feedback" id="feedback" size="40" maxlength="140" style="height: 80px;" required >
+        </td> 
         </tr>
 
 
         <tr>
         <td> 
         <label> Service Quality: 
-        </label> 
+        required </label> 
         </td>
         <td> 
         <input type="radio" name="quality" id="quality" value="terrible" > Terrible
         <input type="radio" name="quality" id="quality" value="bad" > Bad
         <input type="radio" name="quality" id="quality" value="reasonable" > Reasonable
         <input type="radio" name="quality" id="quality" value="good" > Good
-        <input type="radio" name="quality" id="quality" value="great" > Great 
+        <input type="radio" name="quality" id="quality" value="great" > Great
         </td>
         </tr>
 

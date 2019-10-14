@@ -7,14 +7,15 @@
 
 <?php
 
-if (empty($_POST["name"])) {
+if (empty($_POST["feedback"])) {
+
+  echo "<br>Feedback field needs to be filled in!";
+  
+  }
+
+elseif (empty($_POST["name"])) {
 
   echo "<br>Name field needs to be filled in!";
-
-}
-  elseif (empty($_POST["feedback"])) {
-
-echo "<br>Feedback field needs to be filled in!";
 
 }
 
