@@ -56,8 +56,7 @@
 
         <tr>
         <td> 
-        <label> Service Quality: 
-        required </label> 
+        <label> Service Quality:  </label> 
         </td>
         <td> 
         <input type="radio" name="quality" id="quality" value="terrible" > Terrible

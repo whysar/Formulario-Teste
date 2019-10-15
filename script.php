@@ -25,11 +25,7 @@ else {
 
 <br>
 
-Welcome <?php echo $_POST["name"]; ?><br>
-
-<br>
-
-We appreciate your feedback.<br>
+Welcome <?php echo $_POST["name"]; ?>, we appreciate your feedback.<br>
 
 <?php
 
