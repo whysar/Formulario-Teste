@@ -10,7 +10,7 @@ describe('Fill Test', function() {
     cy.get('#number').type('000000000')
     cy.get('#feedback').type('abcdefghijklmnopqrstuvwxyz')
     cy.get('[type="radio"]').check('reasonable')
-    cy.get('form').submit()
+    cy.get('input[name="Register"]').click()
 
   })
 })
