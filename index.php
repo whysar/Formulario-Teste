@@ -1,6 +1,6 @@
 <html>
   <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   </head>
 
   <body style = "font-family:times, times new roman, serif;" bgcolor="#C0C0C0" text="#008000" > 
