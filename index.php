@@ -67,11 +67,11 @@
          </td>
         </tr>
 
-		<tr>
+	<tr>
          <td>
           <input type="submit" name="Register" id="Register" value="Submit" /> 
          </td>
-		</tr>
+	</tr>
 
     </form>
   </body>
