@@ -59,11 +59,11 @@
          </td>
 
          <td> 
-          <input type="radio" name="quality" id="quality" value="terrible" > Terrible
-          <input type="radio" name="quality" id="quality" value="bad" > Bad
-          <input type="radio" name="quality" id="quality" value="reasonable" > Reasonable
-          <input type="radio" name="quality" id="quality" value="good" > Good
-          <input type="radio" name="quality" id="quality" value="great" > Great
+          <input type="radio" name="quality" id="quality" value="terrible" /> Terrible
+          <input type="radio" name="quality" id="quality" value="bad" /> Bad
+          <input type="radio" name="quality" id="quality" value="reasonable" /> Reasonable
+          <input type="radio" name="quality" id="quality" value="good" /> Good
+          <input type="radio" name="quality" id="quality" value="great" /> Great
          </td>
         </tr>
 
