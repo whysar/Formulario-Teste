@@ -3,12 +3,12 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   </head>
 
-<body style = "font-family:times, times new roman, serif;" bgcolor="#C0C0C0" text="#008000" > 
+<body bgcolor="#C0C0C0" text="#008000" > 
 <form name="form" action="/script.php" method="post">
 
        <table>
           <tr>
-           <th colspan="2">Feedback </th>
+           <h1 style="font-size: 3rem; color: #Green; text-align: center;font-family: font-family:times, times new roman, serif;">Feedback</h1>
           </tr>
 
           <tr>
