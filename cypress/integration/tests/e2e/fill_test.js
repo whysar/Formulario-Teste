@@ -11,6 +11,7 @@ describe('Fill Test', function() {
     cy.get('#feedback').type('abcdefghijklmnopqrstuvwxyz')
     cy.get('[type="radio"]').check('reasonable')
     cy.get('input[name="Register"]').click()
+    cy.contains('Welcome Teste, we appreciate your feedback.')
 
   })
 })
